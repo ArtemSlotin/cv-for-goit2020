@@ -6,7 +6,6 @@
   <title>My resume</title>
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
   <!-- main container-->
@@ -19,7 +18,7 @@
               <h3 class="contacts-title">Contacts</h3>
               <div>
               <span class="contacts-link-type"> C:</span> 
-              <a class="contacts-link" href="tel:380639378313">+38 063 937 83 13</a> 
+              <a class="contacts-link" href="tel:+37060430216">+370 604 302 16</a> 
               </div>
               <div>
               <span class="contacts-link-type"> E:</span>
@@ -57,16 +56,16 @@
 
           <!--Soft skills conteiner-->
           <div class="soft-skills-container">
-          <h3 class="soft-skills-title">Soft Skills</h3>
+          <h3 class="soft-skills-title"> My good qualities:</h3>
           <ul>
             <li class="soft-skills-item">
-            <span class="soft-skills-text">Scrum</span>
+            <span class="soft-skills-text">Ability to learn quickly and learn new things</span>
             </li>
             <li class="soft-skills-item">
-            <span class="soft-skills-text">Agile</span>
+            <span class="soft-skills-text">Perseverance</span>
             </li>
             <li class="soft-skills-item">
-            <span class="soft-skills-text">GTD</span>
+            <span class="soft-skills-text">Energetic nature</span>
             </li>
             <li class="soft-skills-item">
             <span class="soft-skills-text">Teamwork</span>
@@ -78,88 +77,77 @@
   <div class="about-me">  
     <!--about me main info-->
     <div class="info-container">
-        <h2 class="profession">Front-End Developer</h2>
+        <h2 class="profession">On the way to become Front-End Developer</h2>
         <h1 class="name">Artem Slotin</h1>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+        <p class="description">Hello. My current profession is a kitchener. During the pandemic, priorities in life changed. 
+          It's been more than 3 months of lockdown and I have time to study. But I want to change my profession. 
+          I like working with a computer, solving problems, 
+          I like to see the amount of work I do. It is always interesting to discover something new.</p>
     </div>
        
     <!--progect container-->
     <div class="projects-container">
-      <h3 class="about-me-title">Projects</h3>
-      <ol>
-       <li class="projects-item"> 
-        <a class="projects-link" href="https://lovecamp.allinsol.com/">https://lovecamp.allinsol.com/</a>
-        <span class="dots">..............................................</span>
-        <span> <b>[</b> <span class="tech-name">HTML5, CSS3</span> <b>]</b> </span>
-        </li> 
-        <li class="projects-item">
-        <a class="projects-link" href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>  
-        <span class="dots">.....................................................</span>
-        <span> <b>[</b> <span class="tech-name">JavaScript</span> <b>]</b> </span>
-        </li>
-        <li class="projects-item">
-        <a class="projects-link" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
-        <span class="dots">.....................................................</span>
-        <span> <b>[</b> <span class="tech-name">React.js, Node.js</span> <b>]</b> </span>
-        </li>
-      </ol>
+      <h3 class="about-me-title">My last code:</h3>
+        <div class="code-example">
+          <pre>
+          function addNumbers(object) {
+            const result = [];
+            
+            for (num in object) {
+              const item = object[num];
+              if(typeof(item) == 'number') {
+                result.push(item);
+              }
+            }
+            const sum = result.reduce((a, b) => a + b);
+            return sum;
+          };
+            
+          addNumbers({
+            one: 1,
+            two: '2',
+            three: 3,
+          });
+          </pre>
+        </div>
+        <hr>
     </div>
     
-    <!--work experience-->
     <div>
-      <h3 class="about-me-title">Work Experience</h3>
+      <h3 class="about-me-title">About study</h3>
 
-      <!--company 1-->
       <div>
-        <h4 class="profession-title">Front-End Developer <span class="profession-company">Freelance</span></h4>
+        <h5 class="profession-title">Javascript Basics<span class="profession-company"> Mate Academy</span></h5>
         <span class="profession-period">
-          September 2019 - up to now <span class="profession-divider">|</span> Ukraine
+          January 2021 - February 2021 <span class="profession-divider">|</span> Online (Ukraine)
         </span> 
         <ul class="profession-duties">
-          <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-          <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li class="profession-duties-item">Risus commodo viverra maecenas.</li>
-          <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+          <li>I pass the <i>Javascript Basics</i> course at the <a class="projects-link" href="http://mate.academy/learn">Mate Academy</a></li>
+          <li>I start to read the book <a class="projects-link" href="https://learn.javascript.ru/">	&#34;Современный учебник JavaScript	&#34;</a></li>
         </ul>
       </div>
 
-      <!--company 2-->
+    
       <div>
-        <h4 class="profession-title">Manager <span class="profession-company">Roga & Kopyta New</span></h4>
+        <h5 class="profession-title">Full JavaScript + React<span class="profession-company"> udemy.com</span></h5>
         <span class="profession-period">
-          March 2015 - October 2018 <span class="profession-divider">|</span> Ukraine
-        </span> 
+          November 2020 - Until now <span class="profession-divider">|</span> Online</span> 
         <ul class="profession-duties">
-          <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li class="profession-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
-          <li class="profession-duties-item">Risus commodo viverra maecenas.</li>
+          <li>Now I continue <span class="projects-link">Полный курс по JavaScript + React - с нуля до результата</span> from <i>Ivan Petrychenko</i> in <a class="projects-link" href="http://www.udemy.com/">udemy.com</a></li>
         </ul>
       </div>
       
-      <!--company 3-->
-      <div>
-        <h4 class="profession-title">Manager <span class="profession-company">Roga & Kopyta LLC</span></h4>
-        <span class="profession-period">
-          June 2014 - February 2015 <span class="profession-divider">|</span> Ukraine
-        </span> 
-        <ul class="profession-duties">
-          <li class="profession-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li class="profession-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
-          <li class="profession-duties-item">Risus commodo viverra maecenas.</li>
-        </ul>
-      </div>
-    </div>
    
-    <!--education-->
-    <div>
-      <h3 class="about-me-title">Education</h3>
-      <h4 class="university">Kharkiv National University of Radioelectronics</h4>
-      <h4 class="management">Management</h4>
-      <span class="profession-period">Septermber 2009 - June 2014 | Ukraine</span>
-    </div>
-  
+    <!--language-->
+      <h4 class="management">Languages:</h4> 
   </div>
-
+  <ul>
+    <li>Ukrainian - <i><b class="languages">Native</b></i></li></li>
+    <li>Russian - <i><b class="languages">Native (2nd after Ukrainian)</b></i></li></li>
+    <li>English - <i><b class="languages">Pre-Intermediate(A2)</b></i></li>
+    <li>Lithianian - <i><b class="languages">(B2)</b></i></li>
+  </ul>
+      
   </div>
 
 </body>

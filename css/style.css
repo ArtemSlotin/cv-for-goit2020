@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     background:  #f5f7fa;
@@ -36,7 +35,7 @@ body {
 .about-me {
     padding-left: 90px;
     padding-right: 90px;
-    padding-top: 110px;
+    padding-top: 70px;
     padding-bottom: 110px;
 }
 
@@ -72,6 +71,18 @@ body {
     margin-right: 10px;
 }
 
+.code-example {
+    font-size: 125%;
+    color: rgb(32, 24, 141);
+    background-color: rgb(207, 204, 204);
+    border: 0.5px solid rgb(100, 94, 94);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.languages {
+    color: grey;
+} 
 
 .tech-skills-container {
     margin-top: 55px;
@@ -122,7 +133,7 @@ body {
 }
 
 .soft-skills-item {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     color: #fc6a09;
@@ -134,23 +145,25 @@ body {
     }
 
 .profession {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+    color: rgb(117, 124, 117);
     margin-bottom: 20px;
 }
 
 .name {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 89px;
 }
 
 .description {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    color: #959595;
+    line-height: 20px;
+    color: #0f0f0f;
+    text-align-last: inherit;
 }
 
 .info-container {
@@ -158,15 +171,15 @@ body {
 }
 
 .about-me-title {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 10px;
 }
 
 .projects-link {
-    color: #595959;
-    font-size: 14px;
+    color: #e67812;
+    font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     text-decoration: none;
